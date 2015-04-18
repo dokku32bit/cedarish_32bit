@@ -1,5 +1,5 @@
 CEDAR14_URL ?= https://raw.githubusercontent.com/heroku/stack-images/master/bin/cedar-14.sh
-CEDAR14_BASE ?= ubuntu-debootstrap:14.04
+CEDAR14_BASE ?= dokku32bit/ubuntu-debootstrap:14.04
 
 build: build/cedar14.tar
 
